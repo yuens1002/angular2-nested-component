@@ -2,7 +2,8 @@
 
 <p>This example demonstrates a basic building block of a nested component done using AngularJS (version 2 final). The app component is the container (title and explaination shown in black) with in the inner component (green button &#38; the hidden message) nested inside. The inner component is hidden by default, its visibilty can be toggled by clicking on the "click to show message!" button</p>
 
-<p>Activity Log: <span *ngFor="let log of logs">{{log}}, </span></p>
+<!-- giving a space between each log entry with a loop -->
+<p *ngIf="logs.length > 0">Activity Log: <span *ngFor="let log of logs">{{log}}, </span></p>
 <!-- component to DOM uses () syntax -->
 <inner-component (visible)="showLog('show')" (hidden)="showLog('hide')">
   <span class="appComponent__msg">This is the hidden message, you can click the button again to hide it</span>
