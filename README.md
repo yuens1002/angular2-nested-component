@@ -5,7 +5,7 @@ I built this project to learn about Angular2 component, input/output, and compon
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.18. 
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. If you're doing development on a virtual machine, run `ng serve --host ip.address.of.the.virtual.machine --port four.digit.port.number --live-reload-port five.digit.port.number
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. If you're doing development on a virtual machine, run `ng serve --host` ip.address.of.the.virtual.machine `--port` four.digit.port.number `--live-reload-port` five.digit.port.number
 
 ## Code scaffolding
 
