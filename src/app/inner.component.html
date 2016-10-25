@@ -1,0 +1,6 @@
+<div class="innerComponent">
+	<button (click)="toggle()">Click to {{msg}} Message</button>
+	<div class="innerComponent__conntent" [hidden]="isHidden"> <!-- hidden is a dom attribute, therefore it uses [] syntax  -->
+		<ng-content></ng-content>
+	</div>
+</div>

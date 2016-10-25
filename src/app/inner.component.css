@@ -1,0 +1,14 @@
+.innerComponent__conntent {
+	padding-top: 4rem; 
+}
+
+button {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+}
