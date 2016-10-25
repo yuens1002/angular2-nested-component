@@ -1,9 +1,11 @@
-# NestedComponent
+# Angular2 Nested Component Demo
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.18.
+I built this project to learn about Angular2 component, input/output, and component level relative path. I wanted to thank Pascal Precht for writing the article [Developing a Zippy Component in Angular 2](http://blog.thoughtram.io/angular/2015/03/27/building-a-zippy-component-in-angular-2.html) which helped me understand the key concepts in building this demo.
+
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.18. 
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. If you're doing development on a virtual machine, run `ng serve --host ip.address.of.the.virtual.machine --port four.digit.port.number --live-reload-port five.digit.port.number
 
 ## Code scaffolding
 
